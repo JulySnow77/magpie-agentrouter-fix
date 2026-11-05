@@ -1,0 +1,26 @@
+{
+  "name": "magpie-agentrouter-fix",
+  "version": "0.1.0",
+  "description": "AgentRouter (Fix) provider for magpie: Responses requests are filtered before they reach the upstream, so cross-account history IDs and encrypted reasoning never leave this machine",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "request.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test plugin.test.mjs"
+  },
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "agentrouter",
+    "codex",
+    "responses",
+    "llm-gateway"
+  ],
+  "license": "Apache-2.0"
+}

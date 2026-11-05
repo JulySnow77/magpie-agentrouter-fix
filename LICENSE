@@ -186,7 +186,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2026 JulySnow77
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -199,3 +199,10 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+---
+
+The request-filtering rules in request.mjs are a port of the author's own
+local Codex reasoning/ID filter, which carries no third-party license
+obligations. The magpie plugin interface follows the published
+provider-plugin contract; no code was copied from other plugins.
